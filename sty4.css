@@ -1,0 +1,40 @@
+ body {
+            background: rgb(255, 255, 255);
+        margin: 0px;
+        padding: 0px;
+        }
+
+ header {
+    background-color:rgb(56, 56, 56);
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+ }
+
+ul  {
+    display:flex;
+    list-style-type: none;
+    gap: 15px;
+    font-size: 15px;
+ }
+
+.tea::after {
+content: "|";
+margin-left: 15px
+ }
+
+ footer p { 
+    background-color: black;
+    color:white;
+    margin: 0px;
+    text-align: center;
+    height: 35px;
+ }
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
